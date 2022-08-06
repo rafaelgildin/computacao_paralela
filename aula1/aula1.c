@@ -1,7 +1,21 @@
+/*
+* Rafael Avraham Gildin Acherboim
+* TIA: 31940242
+* Para executar no ambiente wsl - windows 11:
+* >> gcc aula1.c -o aula1 && ./aula1
+*/
+
 #include <stdio.h>
 
 void ex2(){
-    // ex 2
+    /*
+    2. Escreva um programa que leia 3 notas de um aluno e a média das notas dos exercícios realizados por ele. Calcular a média de aproveitamento, usando a fórmula: MA = (N1 + N2*2 + N3*3 + ME)/7. A partir da média, informar o conceito de acordo com a tabela:
+    maior ou igual a 9	A
+    maior ou igual a 7.5 e menor que 9	B
+    maior ou igual a 6 e menor que 7.5	C
+    maior ou igual a 4 e menor que 6	D
+    menor que 4	E
+    */
     float n1, n2, n3, me, ma;
     char letra[1];
 
@@ -31,6 +45,9 @@ void ex2(){
 }
 
 void ex8(){
+    /*
+    8. Crie uma função capaz de criar a transposta de uma matriz.
+    */
     int l,c; //pegando o n de linhas e colunas
     printf("\n\n\nDigite o numero de linhas:"); scanf("%d", &l);
     printf("Digite o numero de colunas:"); scanf("%d", &c);
@@ -69,9 +86,8 @@ void ex8(){
     }
 }
 
-
 int main() {
-    ex2();
+    // ex2();
     // ex8();
     return 0;
 }
