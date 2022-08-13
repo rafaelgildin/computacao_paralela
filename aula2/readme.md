@@ -10,5 +10,5 @@ Respostas:
 1) Sim. Pois com o comando sys.stderr as mensagens são enviadas como se fossem erros, logo são enviadas imediatamente quando ocorrem, o que mantem a ordem dessas.
 ![Alt text](imagens/ex1.jpg?raw=true "Tarefa")
 
-2) As mensagens poderiam estar desordenadas, uma vez que com o comando sys.stdout elas são armazenadas em um buffer antes de serem printadas na tela, o que pode gerar a desordenação destas.
+2) As mensagens estão desordenadas, uma vez que com o comando sys.stdout elas são armazenadas em um buffer antes de serem printadas na tela, o que pode gerar a desordenação destas.
 ![Alt text](imagens/ex2.jpg?raw=true "Tarefa")
